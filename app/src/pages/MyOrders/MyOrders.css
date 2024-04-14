@@ -1,0 +1,32 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    width: 65%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    padding: 1rem;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 1.14rem;
+}
+
+@media screen and (max-width:375px) {
+    .title {
+        width: 90%;
+    }
+
+    .card {
+        width: 90%;
+    }
+}

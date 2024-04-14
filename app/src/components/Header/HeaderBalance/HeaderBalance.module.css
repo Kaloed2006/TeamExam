@@ -1,0 +1,32 @@
+.parent{
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.balance_btn{
+    font-size: 14px;
+    font-family: 'mSB';
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #80878D;
+    border-radius: 10px;
+    padding: 0.6rem;
+    margin: 5px;
+    transition: 0.4s;
+}
+.balance_btn:hover{
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #80878D;
+}
+.balance_btn:active{
+    border-color: #80878D;
+    background-color: transparent;
+    color: #ffffff;
+}

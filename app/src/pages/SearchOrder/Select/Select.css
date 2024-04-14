@@ -1,0 +1,16 @@
+select {
+    padding: 1rem;
+    margin-left: 1rem;
+    border: 1px solid #DBD5D5;
+    border-radius: 10px;
+    font-family: 'mR';
+    font-size: 16px;
+    color: #8E8D8D;
+}
+@media screen and (max-width:375px) {
+    select{
+        margin-left: 0;
+        align-self: start;
+        margin-top: 4px;
+    }
+}

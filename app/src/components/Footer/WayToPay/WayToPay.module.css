@@ -1,0 +1,16 @@
+.waytopay__box{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+@media screen and (max-width:375px) {
+    .waytopay__box{
+        height: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

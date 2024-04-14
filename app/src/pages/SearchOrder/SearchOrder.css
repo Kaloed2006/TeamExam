@@ -1,0 +1,33 @@
+.search_order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+    padding: 1rem 0;
+    width: 65%;
+}
+
+@media screen and (max-width:768px) {
+    .heading{
+        width: 90%;
+    }
+    .selects{
+        display: flex;
+    }
+}
+@media screen and (max-width:375px) {
+    .heading{
+        display: flex;
+        flex-direction: column;
+    }
+    .selects{
+        display: flex;
+        flex-direction: column;
+    }
+}

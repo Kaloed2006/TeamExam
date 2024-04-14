@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    padding: 0.8rem 0;
+}
+
+.container{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.placeorder_btn:hover {
+    color: #FFCC80;
+    background-color: #3C4852;
+}
+
+.placeorder_btn:active {
+    color: #3C4852;
+    background-color: #FFCC80;
+}
+
+.my_account {
+    padding-left: 1rem;
+}
+
+@media screen and (max-width:1440px) {
+    nav {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        width: 100%;
+    }
+    .container{
+        display: none; 
+    }
+}
+
+@media screen and (max-width:375px) {
+}

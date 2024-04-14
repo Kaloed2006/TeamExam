@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    padding: 1rem;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin: 0 0 1rem 0;
+}
+
+.card_box_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:768px) {
+    .card{
+        width: 90%;
+    }
+}
