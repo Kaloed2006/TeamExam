@@ -40,7 +40,7 @@ export default function MyOrders() {
     <Layout>
       <div className='parent'>
         <div className='title'>
-        <Text myff='mB' myfse='30px' mypd='30px 0 30px 0' mytext='Мои заказы' />
+          <Text myff='mB' myfse='30px' mypd='30px 0 30px 0' mytext='Мои заказы' />
         </div>
         {data.map((item, i) => (
           <div key={i} className='card'>
@@ -71,7 +71,6 @@ export default function MyOrders() {
                 <Text myff='mSB' myfse='18px' mypd='0.5rem' mycolor='#EC5760' mytext='Заказ отменён' />
               }
             </div>
-
           </div>
         ))}
       </div>
